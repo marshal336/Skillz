@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 150px;
+    height: 2px;
+    background: #57D9A6;
+}
+
+.input {
+    border-radius: 4px;
+    border: 1px solid #1C1C33;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.Grid{
+    grid-template-columns: repeat(1, 1fr 1fr 2fr);
+}
